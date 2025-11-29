@@ -1,5 +1,5 @@
 [project]
-name = "nyc-taxi-eta-expected-time-of-arrival"
+name = "nyc-taxi-eta"
 version = "0.1.0"
 description = "This project aims to estimate the Expected Time of Arrival (ETA) for taxis in New York City. By leveraging weather data and taxi trip data sourced from the NYC Open Data platform, the project provides insights and predictions to improve transportation efficiency and user experience."
 readme = "README.md"
@@ -8,6 +8,8 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "delta-spark>=4.0.0",
+    "geopandas>=1.1.1",
     "missingno>=0.5.2",
     "polars>=1.29.0",
     "pyarrow>=20.0.0",
@@ -24,10 +26,9 @@ dev = [
     "ipywidgets>=8.1.7",
 ]
 
-[project.scripts]
-nyc-taxi-eta-expected-time-of-arrival = "nyc_taxi_eta_expected_time_of_arrival:main"
-
+[tool.uv.build-backend]
+module-name = "nyc_taxi_eta"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["uv_build>=0.9.13,<0.10.0"]
+build-backend = "uv_build"

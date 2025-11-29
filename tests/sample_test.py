@@ -1,4 +1,4 @@
-from nyc_taxi_eta_expected_time_of_arrival.components.data_ingestion import (
+from nyc_taxi_eta.components.data_ingestion import (
     DataIngestion,
 )
 

@@ -6,8 +6,8 @@
 
 **Document Information**
 
-| Field                     | Details                                             |
-| ------------------------- | --------------------------------------------------- |
+| Field               | Details                                             |
+| ------------------- | --------------------------------------------------- |
 | **Project Name**    | NYC Taxi Estimated Time of Arrival (ETA) Prediction |
 | **Version**         | 1.0                                                 |
 | **Date**            | November 19, 2025                                   |
@@ -84,12 +84,14 @@ Build a predictive analytics platform that:
   - Pickup and dropoff location selection
   - Date and time picker (Default: Now)
   - Display predicted ETA with confidence interval
+
 - **BI Dashboard**: Analytics dashboard for stakeholders
 
   - Trip duration trends by time and location
   - Weather impact analysis
   - Model performance metrics
   - Historical data visualization
+
 - **GenAI Chatbot**: Conversational interface using MCP
 
   - Natural language queries about taxi operations
@@ -103,14 +105,14 @@ Build a predictive analytics platform that:
 
 ### Quantitative Metrics
 
-| Metric                          | Target        | Measurement Method            |
-| ------------------------------- | ------------- | ----------------------------- |
-| **Model Accuracy (RMSE)** | ≤ 3 minutes  | Validation dataset evaluation |
-| **Model R² Score**       | ≥ 0.85       | Regression performance metric |
+| Metric                    | Target        | Measurement Method            |
+| ------------------------- | ------------- | ----------------------------- |
+| **Model Accuracy (RMSE)** | ≤ 3 minutes   | Validation dataset evaluation |
+| **Model R² Score**        | ≥ 0.85        | Regression performance metric |
 | **API Response Time**     | < 200ms (p95) | Load testing with Locust      |
-| **Pipeline Success Rate** | ≥ 95%        | Airflow DAG monitoring        |
-| **Code Coverage**         | ≥ 70%        | pytest + coverage.py          |
-| **Data Quality Score**    | ≥ 90%        | Great Expectations validation |
+| **Pipeline Success Rate** | ≥ 95%         | Airflow DAG monitoring        |
+| **Code Coverage**         | ≥ 70%         | pytest + coverage.py          |
+| **Data Quality Score**    | ≥ 90%         | Great Expectations validation |
 
 ### Qualitative Metrics
 
@@ -127,8 +129,8 @@ Build a predictive analytics platform that:
 
 ### Project Team
 
-| Role                            | Name                  | Responsibilities                                    |
-| ------------------------------- | --------------------- | --------------------------------------------------- |
+| Role                      | Name                  | Responsibilities                                    |
+| ------------------------- | --------------------- | --------------------------------------------------- |
 | **Project Lead**          | Ravi Kumar Chavva     | Overall architecture, ML pipeline, deployment       |
 | **Faculty Advisor**       | Prof. Dakshanamoorthi | Guidance, best practices, industry standards review |
 | **Student Contributor 1** | TBD                   | Data engineering, ETL pipeline development          |
@@ -148,11 +150,13 @@ Build a predictive analytics platform that:
    - Demonstrate end-to-end ML pipeline design
    - Show proficiency in modern data stack
    - Highlight problem-solving approach
+
 2. **Educational Resource**
 
    - Teaching material for ML pipeline development
    - Reference architecture for similar projects
    - Best practices demonstration
+
 3. **Research & Analysis**
 
    - Urban mobility pattern analysis
