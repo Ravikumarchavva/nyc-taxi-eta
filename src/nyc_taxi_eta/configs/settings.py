@@ -1,6 +1,7 @@
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+
 load_dotenv()
 # Define the directories
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent
@@ -15,5 +16,5 @@ SILVER_DIR = WAREHOUSE_DIR / "silver"
 GOLD_DIR = WAREHOUSE_DIR / "gold"
 ML_DIR = WAREHOUSE_DIR / "ml"
 
-DATABASE_USER=os.getenv("DATABASE_USER")
-DATABASE_PASSWORD=os.getenv("DATABASE_PASSWORD")
+DATABASE_USER = os.getenv("DATABASE_USER")
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
