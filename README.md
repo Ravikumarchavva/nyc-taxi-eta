@@ -46,4 +46,4 @@ Exclusions:
   - **ML Layer**: Model training, evaluation, and deployment.
   - **Gold Layer**: Aggregated and curated datasets for analysis and modeling.
 
-![Data Architecture Diagram](public/data_architecture.drawio.png)
+![Data Architecture Diagram](public/architectures/data_architecture.drawio.png)

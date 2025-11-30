@@ -7,6 +7,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent
 DATA_DIR = ROOT_DIR / "data"
 LANDING_DIR = DATA_DIR / "landing"
 YELLOW_TAXI_DIR = LANDING_DIR / "trips_data" / "yellow_taxi"
+GREEN_TAXI_DIR = LANDING_DIR / "trips_data" / "green_taxi"
 
 WAREHOUSE_DIR = DATA_DIR / "metastore"
 BRONZE_DIR = WAREHOUSE_DIR / "bronze"
